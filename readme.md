@@ -6,7 +6,7 @@ A production-ready Retrieval-Augmented Generation (RAG) chatbot built with FastA
 
 ### **Try it Online NOW**
 - **🎯 Streamlit UI (Interactive):** https://rag-spark-chatbot.streamlit.app/
-- **📚 API Documentation:** Coming soon on Render
+- **📚 API Documentation:** Coming soon 
 
 ---
 
@@ -162,54 +162,6 @@ curl -X POST http://localhost:8000/chat \
 
 ---
 
-## 🌍 Deployment Options
-
-### Option 1: Streamlit Cloud (Easiest - UI Only)
-1. Make your repo **public** on GitHub
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
-3. Click "New app" → Select your repository
-4. Main file path: `streamlit_ui.py`
-5. Click Deploy
-
-**Live URL:** https://rag-spark-chatbot.streamlit.app/
-
-### Option 2: Render.com (Full Stack - Recommended)
-1. Go to [render.com](https://render.com)
-2. Sign in with GitHub
-3. Click "New +" → "Blueprint"
-4. Select your repository
-5. Auto-detects `render.yaml` configuration
-6. Click Deploy
-
-**Gets you:**
-- 🔗 API endpoint URL
-- 🎨 UI endpoint URL
-- 🔒 Free SSL/HTTPS
-- 🌐 Worldwide CDN
-- 💰 Free tier available
-
-### Option 3: Railway.app
-1. Go to [railway.app](https://railway.app)
-2. Connect GitHub
-3. Select repository
-4. Railway auto-detects configuration
-5. Deploy with one click
-6. $5/month per service
-
-### Option 4: Fly.io
-1. Sign up at [fly.io](https://fly.io)
-2. Install Fly CLI
-3. Run: `flyctl launch`
-4. Follow prompts to deploy
-5. Pay only for what you use
-
-### Option 5: AWS/Google Cloud/Azure
-- More complex but highly scalable
-- Best for enterprise deployments
-- Requires more configuration
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -262,13 +214,6 @@ API_PORT=8000
 # Streamlit Configuration
 STREAMLIT_SERVER_PORT=8501
 ```
-
-### Render Environment Variables
-Set these in Render dashboard:
-- `OPENAI_API_KEY=sk-...`
-- `API_URL=https://your-api-url.onrender.com`
-
----
 
 ## 🧪 Testing
 
@@ -396,7 +341,7 @@ Contributions are welcome! Here's how:
 
 - 🐛 **Bug Reports:** [Open an Issue](https://github.com/Dinesh0401/RAG-Chatbot/issues)
 - 💬 **Questions:** [GitHub Discussions](https://github.com/Dinesh0401/RAG-Chatbot/discussions)
-- 📧 **Email:** your-email@example.com
+- 📧 **Email:** sjdinesh75@gmail.com
 - 🎥 **YouTube:** [Tutorial Link](https://www.youtube.com/watch?v=xf3gAFclwqo)
 
 ---
@@ -406,7 +351,6 @@ Contributions are welcome! Here's how:
 - OpenAI for GPT API
 - LangChain for LLM orchestration
 - Streamlit for UI framework
-- Render for hosting
 - ChromaDB for vector storage
 
 ---
