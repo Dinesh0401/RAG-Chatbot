@@ -108,7 +108,7 @@ docker run -p 8000:8000 \
 
 ### Run on Docker Hub
 ```bash
-# Build and tag
+# Build and tag 
 docker build -t yourusername/rag-chatbot .
 
 # Login and push
