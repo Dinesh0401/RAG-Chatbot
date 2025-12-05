@@ -1,8 +1,10 @@
 import streamlit as st
 import requests
 from typing import List
+import os
 
-API_URL = "http://127.0.0.1:8000/chat"
+# Use environment variable or default to localhost for development
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/chat")
 
 st.title("RAG Chatbot Demo")
 
